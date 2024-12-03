@@ -1,0 +1,47 @@
+header{
+    background-color: orange;
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul{
+    display: flex;
+    font-size: 12px;
+    padding: 10px;
+
+}
+
+li{
+    padding: 5px;
+}
+
+a{
+    color: white;
+}
+
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 15px;
+}
+
+.img-flex{
+    display: flex;
+    /* align-items: center; */
+    
+    
+}
+
+.flex-basis-30{
+    flex-basis: 30%;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
