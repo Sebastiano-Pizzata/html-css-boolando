@@ -52,6 +52,7 @@ header{
     position: relative;
 }
 
+
 .card__icon,
 .card__labels{
     position: absolute;
@@ -62,6 +63,22 @@ header{
     right: 0;
     padding: 5px;
     background-color: white;
+}
+
+.card__icon:hover i{
+      color: red;
+      cursor: pointer;
+}
+.card__img:hover .card__img--not{
+    display: none;
+}
+
+.card__img--hover{
+    display: none;
+}
+
+.card__img:hover .card__img--hover{
+    display: block;
 }
 
 .card__labels{
