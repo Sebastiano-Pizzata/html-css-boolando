@@ -12,3 +12,11 @@ ul{
 img{
     display: block;
 }
+
+html{
+    font-family: sans-serif;
+}
+
+a{
+    color: white;
+}

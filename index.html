@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-boolando</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
    <link rel="stylesheet" href="./css/reset.css">
 
    <link rel="stylesheet" href="./css/debug.css">
@@ -16,9 +18,8 @@
     <header>
         <!-- lista -->
 
-       <div class="flex"> 
-        <div>
-            <ul>
+        <nav class="header__menu container">
+            <ul class="header-list">
                 <li>
                     <a href="Donna">Donna</a>
                 </li>
@@ -29,81 +30,205 @@
                     <a href="Bambini">Bambini</a>
                 </li>
             </ul>
-        </div>
-
-        <!-- logo da sistemare al centro -->
-        <div>
-            <figure>
-                <img width="10%" src="./img/images/img/boolean-logo.png" alt="logo">
+           <figure >
+                <img width="100px%" src="./img/images/img/boolean-logo.png" alt="logo">
             </figure>
-        </div>
-
-        <!-- icone -->
-
-        <div class="flex">
-              <div>
-                 acc
+             <div class="header-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-bag-shopping"></i>
               </div>
-              <div>
-                heart
-              </div>
-              <div>
-             shop
-              </div>
-        </div>
-
-</div>
-
+          </nav>
     </header>
 
-     <main class="container-80">
+    <main>
+        <section >
+            <div class="cards container" >
+            <div class="card">
+                <div class="card__top">
+                    <figure class="card__img">
+                    <img src="./img/images/img/1.webp" alt="guess">
+                    <div class="card__icon">
+                       <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="card__labels">
+                        <div class="card__discount">
+                            -50%
+                        </div>
+                        <div class="card__label">
+                            Sostenibilità
+                        </div>
+                    </div>
+                </figure>
 
-        <!-- prime 3 immagini -->
+            </div>
+                
+                    <div class="card__bottom">
+                    <span>Levi</span>
+                    <h3>Relaxed Fit TEE UNISEX</h3>
+                    <div class="card__bottom--prices">
+                        <span>14,99€</span>
+                    <span >29,99€</span>
+                    </div>
+                    
+                    </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+                    <figure class="card__img">
+                    <img src="./img/images/img/2.webp" alt="guess">
+                    <div class="card__icon">
+                       <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="card__labels">
+                        <div class="card__discount">
+                            -50%
+                        </div>
+                    </div>
+                </figure>
+
+            </div>
+                
+                    <div class="card__bottom">
+                    <span>GUESS</span>
+                    <h3>ROSES TEE</h3>
+                    <div class="card__bottom--prices">
+                        <span>20,99€</span>
+                    <span >29,99€</span>
+                    </div>
+                    
+                    </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+                    <figure class="card__img">
+                    <img src="./img/images/img/3.webp" alt="guess">
+                    <div class="card__icon">
+                       <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="card__labels">
+                        <div class="card__discount">
+                            -50%
+                        </div>
+                    </div>
+                </figure>
+
+            </div>
+                
+                    <div class="card__bottom">
+                    <span>Cme Zucchero Filato</span>
+                    <h3>VOGLIA DI COLORI PASTELLO</h3>
+                    <div class="card__bottom--prices">
+                        <span>129,99€</span>
+                    <span >184,99€</span>
+                    </div>
+                    
+                    </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+                    <figure class="card__img">
+                    <img src="./img/images/img/4.webp" alt="guess">
+                    <div class="card__icon">
+                       <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="card__labels">
+                        <div class="card__discount">
+                            -50%
+                        </div>
+                        <div class="card__label">
+                            Sostenibilità
+                        </div>
+                    </div>
+                </figure>
+
+            </div>
+                
+                    <div class="card__bottom">
+                    <span>Levi</span>
+                    <h3>TEE UNISEX</h3>
+                    <div class="card__bottom--prices">
+                        <span>14,99€</span>
+                    <span >29,99€</span>
+                    </div>
+                    
+                    </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+                    <figure class="card__img">
+                    <img src="./img/images/img/5.webp" alt="guess">
+                    <div class="card__icon">
+                       <i class="fa-solid fa-heart"></i>
+                    </div>
+                </figure>
+
+            </div>
+                
+                    <div class="card__bottom">
+                    <span>Maya Deluxe</span>
+                    <h3>STRIPE BODICE</h3>
+                    <div class="card__bottom--prices">
+                        
+                    <span >99,99€</span>
+                    </div>
+                    
+                    </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+                    <figure class="card__img">
+                    <img src="./img/images/img/6.webp" alt="guess">
+                    <div class="card__icon">
+                       <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="card__labels">
+                        <div class="card__label">
+                            Sostenibilità
+                        </div>
+                    </div>
+                </figure>
+
+            </div>
+                
+                    <div class="card__bottom">
+                    <span>Esprit</span>
+                    <h3>MAGLIONE-BLACK</h3>
+                    <div class="card__bottom--prices">
+                    <span >29,99€</span>
+                    </div>
+                    
+                    </div>
+            </div>
+           
+            </div>
+
+            
+            </div>
+
           
-        <div class="img-flex">
-            <div class="flex-basis-30">
-                <figure >
-                 <img width="100%" src="./img/images/img/1.webp" alt="levis">
-                </figure>
-            </div>
-            <div class="flex-basis-30">
-                <figure >
-                <img width="100%" src="./img/images/img/2.webp" alt="guess">
-                </figure>
-            </div>
-            <div class="flex-basis-30">
-                <figure >
-               <img width="100%" src="./img/images/img/3.webp" alt="green">
-                </figure>
-            </div>
-        </div>
-
-
-        <!-- seconda riga di immagini -->
-
-        <div>
-            <div>
-                <figure>
-
-                </figure>
-            </div>
-            <div>
-                <figure>
-
-                </figure>
-            </div>
-            <div>
-                <figure>
-
-                </figure>
-            </div>
-        </div>
+            
+        
+        </section>
 
 
 
 
 
     </main>
+        
+
+               
+
+         
+                
+                 
+
+                
+
+
+               
+     
     <footer></footer>
 </body>
 </html>
